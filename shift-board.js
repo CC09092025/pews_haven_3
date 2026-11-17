@@ -18,7 +18,7 @@ function addVolunteer(name) {
 shiftForm.addEventListener("submit", (event) => {
   let volunteerName = nameInput.value;
 
-  if (volunteerName = "") {
+  if ((volunteerName = "")) {
     shiftMessage.textContent = "Please type your name first.";
     return;
   }
